@@ -55,7 +55,7 @@ public class InMemoryTaskManager implements TaskManager {
         HashMap<Integer, Subtask> subTaskList = epic.getSubTasksList();
         subTaskList.put(idNumber, subtask);
         subtask.setStatus(Status.NEW);
-        changeEpicStatus(epic);
+        changeEpicStatus(epic);//
         return subTaskList;
     }
 

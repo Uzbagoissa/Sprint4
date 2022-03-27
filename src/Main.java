@@ -1,3 +1,4 @@
+/*
 import manager.InMemoryTaskManager;
 import model.Epic;
 import model.Subtask;
@@ -7,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        //TODO replace with some example operations, e.g. add a Task, Epic, sub task, etc
         Scanner scanner = new Scanner(System.in);
         InMemoryTaskManager inMemoryTaskManager = new InMemoryTaskManager();
 
@@ -158,3 +159,4 @@ public class Main {
         }
     }
 }
+*/
